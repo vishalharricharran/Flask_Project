@@ -1,1 +1,14 @@
 secrets.txt
+*.pyc
+*.pem
+*.pub
+*.tar.gz
+*.zip
+*.sql
+*.db
+./tmp
+./build/*
+.idea/*
+.idea
+env
+venv
