@@ -4,7 +4,7 @@ from config import DevConfig
 
 app = Flask(__name__)
 app.config.from_object(DevConfig)
-db =SQLAlchemy(app)
+db = SQLAlchemy(app)
 
 @app.route('/')
 def home():
